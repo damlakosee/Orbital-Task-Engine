@@ -12,9 +12,6 @@ import {
   PieChart, Pie, Cell 
 } from 'recharts';
 
-// =============================================================================
-// CORE ENGINE - Simplified and Working
-// =============================================================================
 
 class TaskExecutionEngine {
   constructor() {
