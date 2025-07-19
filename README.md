@@ -1,12 +1,96 @@
-# React + Vite
+# 🚀 Orbital – Distributed Task Orchestration Simulator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Orbital is a front-end simulation of a distributed DAG-based task orchestration engine — inspired by platforms like Airflow, Prefect, and Dagster. It enables users to visualize and simulate the execution of complex workflows (DAGs), monitor task status, and view system metrics in real-time.
 
-Currently, two official plugins are available:
+> 🌙 Built with React, Recharts, and custom CSS — featuring dark mode, live logging, AI optimization insights, and simulated execution logic.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ✅ DAG Execution Engine
+- Simulates task execution with retries and failure rates
+- Supports sequential task dependencies (DAG logic)
+- Visual DAG viewer with status-aware nodes
+
+### 🧠 AI Insights
+- AI-powered optimization suggestions
+- Dynamic savings calculations and impact tags
+- Actionable UX with feedback on applied recommendations
+
+### 📊 System Monitoring
+- Real-time dashboard with:
+  - Success rate
+  - Average execution time
+  - Active worker simulation
+  - Execution trends and success rate charts
+
+### 💡 UI & UX
+- Light & Dark mode toggle
+- Modular tabbed layout: DAGs, Monitoring, AI Insights
+- Real-time logs with animated status changes
+- Fully responsive (desktop + mobile)
+
+---
+
+## 🧪 Demo Credentials
+
+To simulate login:
+Email: admin@orbital.dev
+Password: admin123
+
+
+*No real backend — everything runs in the browser.*
+
+---
+
+## 🛠️ Tech Stack
+
+- **React + JSX** — UI & logic
+- **Lucide Icons** — Modern SVG icons
+- **Recharts** — Data visualization
+- **Custom CSS** — Tailwind-like utility-first approach
+- **Simulated DAG engine** — Local class-based logic
+
+---
+
+## 🧰 Getting Started
+
+### 1. Clone the repository
+git clone https://github.com/your-username/orbital.git
+cd orbital
+
+### 2. Install Dependencies 
+npm install
+
+### 3. Run the App
+npm run dev
+
+### Then visit http://localhost:5173
+### ⚠️ Requires Node.js 16+ and Vite or Create React App setup.
+
+---
+
+## 🌐 Deployment
+
+Deploy it using Vercel, Netlify, or any static site hosting provider.
+
+---
+
+## 📄 License
+
+MIT — free to use, fork, and modify.
+
+---
+
+## 🙌 Acknowledgments
+
+Inspired by Apache Airflow, Prefect, Dagster
+Icons by Lucide
+Charting via Recharts
+
+
+
+
+
+
